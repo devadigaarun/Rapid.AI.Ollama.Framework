@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Rapid.AI.Ollama.Framework</id>
+    <version>1.2.5</version>
+    <authors>Arun Devadiga</authors>
+    <license type="file">license.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>Rapid.AI.Ollama.Framework.png</icon>
+    <readme>readme.md</readme>
+    <description>Rapid.AI Ollama Framework for .NET 8.0</description>
+    <releaseNotes>- Readme.md added
+		- Chart support added</releaseNotes>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\bin\Release\net8.0\Rapid.AI.Ollama.Framework.dll" target="lib\net8.0\Rapid.AI.Ollama.Framework.dll" />
+    <file src="D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\changelog.md" target="\changelog.md" />
+    <file src="D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\license.txt" target="\license.txt" />
+    <file src="D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework.png" target="\Rapid.AI.Ollama.Framework.png" />
+    <file src="D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\readme.md" target="\readme.md" />
+  </files>
+</package>

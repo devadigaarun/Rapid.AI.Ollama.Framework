@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\git\\Rapid.AI.Ollama.Framework\\GenAIPlayGround\\GenAIPlayGround.csproj": {}
+  },
+  "projects": {
+    "D:\\git\\Rapid.AI.Ollama.Framework\\GenAIPlayGround\\GenAIPlayGround.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\git\\Rapid.AI.Ollama.Framework\\GenAIPlayGround\\GenAIPlayGround.csproj",
+        "projectName": "GenAIPlayGround",
+        "projectPath": "D:\\git\\Rapid.AI.Ollama.Framework\\GenAIPlayGround\\GenAIPlayGround.csproj",
+        "packagesPath": "C:\\Users\\ic004097\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\Rapid.AI.Ollama.Framework\\GenAIPlayGround\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ic004097\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "D:\\git\\Rapid.Microservices.Framework\\bin\\publish\\Rapid.Microservices.Framework.Core": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\git\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework.csproj": {
+                "projectPath": "D:\\git\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\git\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework.csproj": {
+      "version": "1.2.5",
+      "restore": {
+        "projectUniqueName": "D:\\git\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework.csproj",
+        "projectName": "Rapid.AI.Ollama.Framework",
+        "projectPath": "D:\\git\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework.csproj",
+        "packagesPath": "C:\\Users\\ic004097\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\Rapid.AI.Ollama.Framework\\Rapid.AI.Ollama.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ic004097\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "D:\\git\\Rapid.Microservices.Framework\\bin\\publish\\Rapid.Microservices.Framework.Core": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

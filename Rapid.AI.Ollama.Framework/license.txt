@@ -1,0 +1,31 @@
+Rapid.AI.Ollama.Framework - MIT License – free to use, modify, and distribute.
+Copyright © Vedica AI, 2024
+Contact: support@vedicaai.com
+
+This license governs the use of the Rapid.AI.Ollama.Framework (“the Software”) distributed via NuGet.org in binary form only.
+
+1. Grant of License
+   You are granted a non-exclusive, non-transferable, royalty-free license to use the Software solely in its original, unmodified binary form, as distributed via NuGet.org.
+
+2. Permitted Use
+   - You may use the Software for development, evaluation, and internal business use.
+   - You may include the Software as a dependency in your applications, provided your application does not expose the Software as a framework or service on its own.
+
+3. Restrictions
+   - You may NOT reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the Software.
+   - You may NOT redistribute, sublicense, resell, or rehost the Software, either on its own or bundled with another product.
+   - You may NOT modify or create derivative works of the Software.
+
+4. Intellectual Property
+   The Software is licensed, not sold. All rights, title, and interest in and to the Software remain the exclusive property of Vedica AI.
+
+5. Disclaimer of Warranty
+   The Software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to warranties of merchantability or fitness for a particular purpose.
+
+6. Limitation of Liability
+   In no event shall Vedica AI or its contributors be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use the Software.
+
+7. Termination
+   This license will automatically terminate if you fail to comply with any of its terms. Upon termination, you must cease using the Software and destroy all copies.
+
+For commercial licensing, enterprise integration, or partnership inquiries, contact: support@vedicaai.com

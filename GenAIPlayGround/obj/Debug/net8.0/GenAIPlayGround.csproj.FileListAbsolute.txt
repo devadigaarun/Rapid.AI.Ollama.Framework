@@ -1,0 +1,14 @@
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\bin\Debug\net8.0\GenAIPlayGround.exe
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\bin\Debug\net8.0\GenAIPlayGround.deps.json
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\bin\Debug\net8.0\GenAIPlayGround.runtimeconfig.json
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\bin\Debug\net8.0\GenAIPlayGround.dll
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\bin\Debug\net8.0\GenAIPlayGround.pdb
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\obj\Debug\net8.0\GenAIPlayGround.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\obj\Debug\net8.0\GenAIPlayGround.AssemblyInfoInputs.cache
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\obj\Debug\net8.0\GenAIPlayGround.AssemblyInfo.cs
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\obj\Debug\net8.0\GenAIPlayGround.csproj.CoreCompileInputs.cache
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\obj\Debug\net8.0\GenAIPlayGround.dll
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\obj\Debug\net8.0\refint\GenAIPlayGround.dll
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\obj\Debug\net8.0\GenAIPlayGround.pdb
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\obj\Debug\net8.0\GenAIPlayGround.genruntimeconfig.cache
+D:\git\Rapid.AI.Ollama.Framework\GenAIPlayGround\obj\Debug\net8.0\ref\GenAIPlayGround.dll

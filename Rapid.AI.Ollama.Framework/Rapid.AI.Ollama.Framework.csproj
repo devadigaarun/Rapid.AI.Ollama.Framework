@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<AssemblyName>Rapid.AI.Ollama.Framework</AssemblyName>
+	<RootNamespace>Rapid.AI.Ollama.Framework</RootNamespace>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Authors>Arun Devadiga</Authors>
+	<Company>Vedica AI</Company>
+	<Description>Rapid.AI Ollama Framework for .NET 8.0</Description>
+	<PackageId>Rapid.AI.Ollama.Framework</PackageId>
+	<PackageVersion>1.2.5</PackageVersion>
+	<PackageIcon>Rapid.AI.Ollama.Framework.png</PackageIcon>
+	<PackageReadmeFile>readme.md</PackageReadmeFile>
+	<PackageLicenseFile>license.txt</PackageLicenseFile>
+	<PackageChangeLogFile>changelog.txt</PackageChangeLogFile>
+	<SignAssembly>true</SignAssembly>
+	<AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+	<PackageReleaseNotes>
+		- Readme.md added
+		- Chart support added
+	</PackageReleaseNotes>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Update="license.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="readme.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="changelog.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Rapid.AI.Ollama.Framework.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

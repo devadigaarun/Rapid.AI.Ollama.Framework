@@ -1,0 +1,13 @@
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\bin\Release\net8.0\Rapid.AI.Ollama.Framework.deps.json
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\bin\Release\net8.0\Rapid.AI.Ollama.Framework.dll
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\bin\Release\net8.0\Rapid.AI.Ollama.Framework.pdb
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\obj\Release\net8.0\Rapid.AI.Ollama.Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\obj\Release\net8.0\Rapid.AI.Ollama.Framework.csproj.CoreCompileInputs.cache
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\obj\Release\net8.0\Rapid.AI.Ollama.Framework.dll
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\obj\Release\net8.0\refint\Rapid.AI.Ollama.Framework.dll
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\obj\Release\net8.0\Rapid.AI.Ollama.Framework.pdb
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\obj\Release\net8.0\ref\Rapid.AI.Ollama.Framework.dll
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\bin\Release\net8.0\changelog.md
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\bin\Release\net8.0\license.txt
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\bin\Release\net8.0\Rapid.AI.Ollama.Framework.png
+D:\git\Rapid.AI.Ollama.Framework\Rapid.AI.Ollama.Framework\bin\Release\net8.0\readme.md
