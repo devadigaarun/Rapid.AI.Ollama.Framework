@@ -1,14 +1,31 @@
 ﻿# Rapid.AI.Ollama.Framework
 
-`Rapid.AI.Ollama.Framework` is a lightweight C# client library that allows developers to interact with locally running [Ollama](https://ollama.com) models. It supports both **stateless prompt generation** and **contextual multi-turn chat conversations** using the Ollama REST API.
+**Rapid.AI.Ollama.Framework** is a lightweight .NET library that allows developers to interact with locally or remotely running [Ollama](https://ollama.com) models. It supports both **stateless prompt generation** and **contextual multi-turn chat conversations** using the Ollama REST API.-
 
+---
 ## ✨ Features
 
-- 🔁 Stateless prompt generation using `/api/generate`
-- 💬 Context-aware chat with conversation history using `/api/chat`
 - 📦 Simple and easy-to-integrate C# API
+- 🤖 **Ollama Integration**: Send prompts and receive completions from local or remote Ollama servers.
+- 🧼 **Stateful & Stateless Chat**: Clearable chat histories to manage conversational memory.
 - 🔧 Supports streaming output for prompt generation
 
+🤖 **Ollama Gateway** (`IOllamaGateway`)
+  - Lightweight prompt-based chat and content generation
+  - Statefull and Stateless by default, with optional history reset
+---
+## 📦 Installation
+
+Install from [NuGet.org](https://www.nuget.org/packages/Rapid.AI.Ollama.Framework):
+
+```bash
+dotnet add package Rapid.AI.Ollama.Framework
+```
+Or via Package Manager Console:
+
+```powershell
+Install-Package Rapid.AI.Ollama.Framework
+```
 ---
 
 ## 🚀 Getting Started
@@ -19,61 +36,9 @@
 - [Ollama](https://ollama.com) running locally (default port `http://localhost:11434`)
 - A downloaded model (e.g., `llama3`, `llama3.2:1b`, etc.)
 
----
-
-## 🧪 Usage
-
-### ✨ 1. Generate Prompt Response
-
-```csharp
-using Rapid.AI.Ollama.Framework;
-
-string result = OllamaClient.Generate("http://localhost:11434/api/generate", "What is quantum physics?", "llama3.2:1b");
-
-Console.WriteLine(result);
-
-```
-
-This uses the /api/generate endpoint with streaming enabled, and returns a stateless response for the given prompt.
-
-### 💬 2. Chat with Context (Multi-Turn)
-```csharp
-using Rapid.AI.Ollama.Framework;
-
-// First user message
-string reply1 = OllamaClient.Chat("http://localhost:11434/api/chat", "Who was Marie Curie?", "llama3.2:1b");
-Console.WriteLine("AI: " + reply1);
-
-// Follow-up message
-string reply2 = OllamaClient.Chat("http://localhost:11434/api/chat", "What was her contribution to science?", "llama3.2:1b");
-Console.WriteLine("AI: " + reply2);
-```
-You can maintain context by using Chat(). The chat history is kept internally.
-
-### 🔄 To Clear Chat History:
-```csharp
-OllamaClient.ClearChatHistory();
-```
-### 📌 Notes
-Generate method uses the /api/generate endpoint and streams the output.
-
-Chat method uses the /api/chat endpoint and maintains internal chat history.
-
-Timeout is set to 5 minutes for long-running responses.
-
-### 📁 Project Structure
-```csharp
-OllamaClient
-├── Generate(...)        // Stateless streaming prompt generation
-├── Chat(...)            // Stateful chat with message history
-├── ClearChatHistory()   // Clears the internal chat history
-```
-
 ### 🧱 Example Model Names
 - llama3
-
 - llama3.2:1b
-
 - mistral
 
 Any other model available through Ollama
@@ -82,9 +47,66 @@ Ensure the model is already pulled by running:
 ```bash
 ollama run llama3.2:1b
 ```
+---
+## 🧪 Usage
 
+### 🏭 1. Factory Class
+```csharp
+public interface IOllamaGatewayFactory
+{
+    IOllamaGateway Create(string ollamaUrl, string model);
+}
+```
+### 🤖 2. IOllamaGateway
+```csharp
+public interface IOllamaGateway
+{
+    string ChatAsync(string prompt, string model = "");
+    void ClearChatHistory();
+    string GenerateAsync(string prompt, string model = "");
+}
+```
+#### ✨ 1. Chat Usage example with Context (Multi-Turn)
+```csharp
+
+var factory = new OllamaGatewayFactory();
+var ollama = factory.Create(ollamaUrl, myModel);
+
+string response = ollama.ChatAsync("Tell me about India?");
+Console.WriteLine(response);
+
+string responseUpdated = ollama.ChatAsync("What are the best tourist places?");
+Console.WriteLine(responseUpdated);
+
+ollama.ClearChatHistory();
+```
+#### ✨ 1. Content generation Usage example
+```csharp
+
+var factory = new OllamaGatewayFactory();
+var ollama = factory.Create(ollamaUrl, myModel);
+
+string response = ollama.GenerateAsync("Tell me about India?");
+Console.WriteLine(response);
+```
+#### 🔄 To Clear Chat History:
+```csharp
+OllamaClient.ClearChatHistory();
+```
+---
 ### 📃 License
-MIT License – free to use, modify, and distribute.
+The Core Framework is not open-source, but is freely distributed via NuGet.
 
-### 🤝 Contributions
-Feature requests and improvements are welcome. Please fork and PR your changes!
+For commercial use, licensing, or integration support:
+
+📧 support@vedicaai.com or aruna.devadiga@gmail.com
+
+---
+
+### 🙋 Support & Contributions
+This framework is not open source, but it is freely distributed via NuGet.
+If you encounter issues, bugs, or have suggestions, feel free to reach out to the maintainers or submit feedback via the appropriate support channels.
+
+📧 support@vedicaai.com or aruna.devadiga@gmail.com
+
+---
