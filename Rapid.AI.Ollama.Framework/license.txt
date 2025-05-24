@@ -1,4 +1,4 @@
-Rapid.AI.Ollama.Framework - Free Binary-Only to use and distribute.
+Rapid.AI.Ollama.Framework - MIT License – free to use, modify, and distribute.
 Copyright © Vedica AI, 2025
 Contact: support@vedicaai.com
 

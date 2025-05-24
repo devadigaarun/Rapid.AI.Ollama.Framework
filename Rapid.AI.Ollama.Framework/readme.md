@@ -95,18 +95,12 @@ OllamaClient.ClearChatHistory();
 ```
 ---
 ### 📃 License
-The Core Framework is not open-source, but is freely distributed via NuGet.
-
-For commercial use, licensing, or integration support:
-
+MIT License – free to use, modify, and distribute.
 📧 support@vedicaai.com or aruna.devadiga@gmail.com
 
----
+### 🤝 Contributions
 
-### 🙋 Support & Contributions
-This framework is not open source, but it is freely distributed via NuGet.
-If you encounter issues, bugs, or have suggestions, feel free to reach out to the maintainers or submit feedback via the appropriate support channels.
-
+Feature requests and improvements are welcome. Please fork and PR your changes!
 📧 support@vedicaai.com or aruna.devadiga@gmail.com
 
 ---

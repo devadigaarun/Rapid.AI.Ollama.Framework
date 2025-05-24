@@ -12,7 +12,7 @@
 	<Company>Vedica AI</Company>
 	<Description>Rapid.AI Ollama Framework for .NET 8.0</Description>
 	<PackageId>Rapid.AI.Ollama.Framework</PackageId>
-	<PackageVersion>2.0.0</PackageVersion>
+	<PackageVersion>2.0.1</PackageVersion>
 	<PackageIcon>Rapid.AI.Ollama.Framework.png</PackageIcon>
 	<PackageReadmeFile>readme.md</PackageReadmeFile>
 	<PackageLicenseFile>license.txt</PackageLicenseFile>
