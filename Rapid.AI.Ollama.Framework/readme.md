@@ -1,7 +1,7 @@
 ﻿# Rapid.AI.Ollama.Framework
 
 **Rapid.AI.Ollama.Framework** is a lightweight .NET library that allows developers to interact with locally or remotely running [Ollama](https://ollama.com) models. It supports both **stateless prompt generation** and **contextual multi-turn chat conversations** using the Ollama REST API.-
-
+*Say goodbye to API limits and monthly bills. Develop and run a powerful local AI that browses, codes, and thinks.*
 ---
 ## ✨ Features
 

@@ -12,7 +12,7 @@ class OllamaAgent
         string myModel = "llama3.2:1b";
 
         var factory = new OllamaGatewayFactory();
-        var ollamaGateway = factory.CreateOllamaGateway(ollamaUrl, myModel);
+        var ollamaGateway = factory.Create(ollamaUrl, myModel);
 
         bool isChatRequsted = false;
 
