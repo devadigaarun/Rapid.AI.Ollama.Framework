@@ -1,31 +1,32 @@
-Rapid.AI.Ollama.Framework - MIT License ñ free to use, modify, and distribute.
-Copyright © Vedica AI, 2025
-Contact: support@vedicaai.com
+ÔªøRapid.AI.Ollama.Framework - MIT License ‚Äì free to use, modify, and distribute.
 
-This license governs the use of the Rapid.AI.Ollama.Framework (ìthe Softwareî) distributed via NuGet.org in binary form only.
+Copyright (c) 2025 Aruna Devadiga
 
-1. Grant of License
-   You are granted a non-exclusive, non-transferable, royalty-free license to use the Software solely in its original, unmodified binary form, as distributed via NuGet.org.
+This software is a personal passion project, developed and shared freely for the benefit of the community. It is intended to support **learning, experimentation, research**, and **personal use** in non-commercial settings.
 
-2. Permitted Use
-   - You may use the Software for development, evaluation, and internal business use.
-   - You may include the Software as a dependency in your applications, provided your application does not expose the Software as a framework or service on its own.
+By downloading or using the binaries of this software (the ‚ÄúSoftware‚Äù), you agree to the following terms:
 
-3. Restrictions
-   - You may NOT reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the Software.
-   - You may NOT redistribute, sublicense, resell, or rehost the Software, either on its own or bundled with another product.
-   - You may NOT modify or create derivative works of the Software.
+1. **Non-Commercial Use Only**  
+   This Software is strictly for non-commercial purposes.  
+   You may **not** use it:
+   - As part of a commercial product or service  
+   - To generate revenue directly or indirectly  
+   - In any business or enterprise environment where it serves customers or clients
 
-4. Intellectual Property
-   The Software is licensed, not sold. All rights, title, and interest in and to the Software remain the exclusive property of Vedica AI.
+2. **Learning and Research Use Encouraged**  
+   You are welcome to use this Software for:
+   - Personal projects and learning  
+   - Research and academic purposes  
+   - Prototyping and internal experimentation (non-commercial)
 
-5. Disclaimer of Warranty
-   The Software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to warranties of merchantability or fitness for a particular purpose.
+3. **No Warranty**  
+   This Software is provided ‚Äúas is‚Äù, without any warranty. Use it at your own risk.
 
-6. Limitation of Liability
-   In no event shall Vedica AI or its contributors be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use the Software.
+4. **Attribution and Acknowledgment**  
+   If you find this framework useful, acknowledgment is appreciated (though not required).  
+   Feedback and suggestions are welcome.
 
-7. Termination
-   This license will automatically terminate if you fail to comply with any of its terms. Upon termination, you must cease using the Software and destroy all copies.
+For questions or special use cases:
+üìß aruna.devadiga@gmail.com
 
-For commercial licensing, enterprise integration, or partnership inquiries, contact: support@vedicaai.com
+Package: Rapid.AI.Ollama.Framework (NuGet)

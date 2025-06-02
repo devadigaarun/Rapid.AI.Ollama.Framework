@@ -96,11 +96,11 @@ OllamaClient.ClearChatHistory();
 ---
 ### 📃 License
 MIT License – free to use, modify, and distribute.
-📧 support@vedicaai.com or aruna.devadiga@gmail.com
+📧 aruna.devadiga@gmail.com
 
 ### 🤝 Contributions
 
 Feature requests and improvements are welcome. Please fork and PR your changes!
-📧 support@vedicaai.com or aruna.devadiga@gmail.com
+📧 aruna.devadiga@gmail.com
 
 ---
